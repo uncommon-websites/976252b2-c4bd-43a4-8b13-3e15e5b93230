@@ -38,6 +38,17 @@
 	--color-secondary-900: oklch(30% 0.1 30);
 	--color-secondary-950: oklch(20% 0.11 30);
 
-	--font-body: var(--font-family), var(--font-fallback);
-	--font-display: var(--font-body);
+	--font-body: "Inter", sans-serif;
+	--font-display: "Newsreader", serif;
+	--font-mono: "JetBrains Mono", monospace;
+
+	--color-brand-green: #009045;
+	--color-brand-green-hover: #007a3a;
+	--color-brand-dark: #121212;
+	--color-bg-beige: #EAEAE8;
+	--color-bg-card: #F3F3F1;
+	
+	--color-accent-orange: #F97316;
+	--color-accent-pink: #EC4899;
+	--color-accent-yellow: #EAB308;
 }
