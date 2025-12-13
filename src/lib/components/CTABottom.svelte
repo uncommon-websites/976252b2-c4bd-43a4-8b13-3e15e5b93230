@@ -1,13 +1,13 @@
 <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto">
 	<div class="text-center mb-16">
 		<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-			[ NEED CONVINCING? ]
+			[ READY TO SCALE? ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-4">
-			Tell your CTO about Greptile
+			Share AlphaCode with your team
 		</h2>
 		<p class="font-mono text-sm text-gray-600">
-			Need to convince your company to get Greptile? We can help.
+			Need to convince your leadership? We'll help you make the case.
 		</p>
 	</div>
 
@@ -16,17 +16,17 @@
 			<form class="space-y-4">
 				<div>
 					<label for="to" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">To:</label>
-					<input type="email" id="to" value="cto@acme.ai" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green" />
+					<input type="email" id="to" value="cto@yourcompany.com" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green" />
 				</div>
 				
 				<div>
-					<label for="body" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">Your Body & Name:</label>
-					<textarea id="body" rows="4" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green resize-none">Calvin Kim</textarea>
+					<label for="body" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">Message:</label>
+					<textarea id="body" rows="4" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green resize-none" placeholder="I found AlphaCode - it could help us scale our infrastructure operations..."></textarea>
 				</div>
 				
 				<div>
 					<label for="name" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">Your Name:</label>
-					<input type="text" id="name" value="Ilya Mura" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green" />
+					<input type="text" id="name" placeholder="Your name" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green" />
 				</div>
 
 				<button type="button" class="w-full bg-black text-white py-3 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center justify-center gap-2 font-mono uppercase tracking-wide">
@@ -38,10 +38,10 @@
             <div class="mt-6 pt-6 border-t border-gray-200 text-center">
                 <span class="text-xs text-gray-500 font-mono mb-4 block">OR</span>
                 <button class="bg-brand-green text-white px-6 py-3 rounded text-sm font-medium hover:bg-brand-green-hover transition-colors w-full font-mono uppercase tracking-wide">
-                    Try For Free ->
+                    Request Demo ->
                 </button>
                 <p class="text-[10px] text-gray-400 font-mono uppercase mt-2">
-                    14 days free - no credit card required
+                    See AlphaCode in action
                 </p>
             </div>
 		</div>

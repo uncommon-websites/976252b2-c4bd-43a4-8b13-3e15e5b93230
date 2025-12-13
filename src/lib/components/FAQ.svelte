@@ -3,32 +3,32 @@
 
 	const faqs = [
 		{
-			question: "How does Greptile pricing work?",
-			answer: "Greptile charges per active developer. An active developer is anyone who opens a PR in a given month."
+			question: "How does AlphaCode pricing work?",
+			answer: "AlphaCode pricing is based on the number of services under management and deployment frequency. Contact us for a custom quote tailored to your infrastructure scale."
 		},
 		{
-			question: "Can Greptile be self-hosted?",
-			answer: "Yes, Greptile can be deployed in your own VPC or on-premise environment. Contact us for enterprise pricing."
+			question: "Can AlphaCode be self-hosted?",
+			answer: "Yes, AlphaCode can be deployed in your own VPC, on-premise, or in air-gapped environments. We provide full support for enterprise self-hosted deployments."
 		},
 		{
-			question: "Are there free trials or discounts available for Greptile?",
-			answer: "Yes, we offer a 14-day free trial with no credit card required. We also offer discounts for startups and open source projects."
+			question: "What cloud providers does AlphaCode support?",
+			answer: "AlphaCode supports AWS, Google Cloud Platform, Azure, and Kubernetes across all major cloud providers. We also support hybrid and multi-cloud architectures."
 		},
 		{
-			question: "What programming languages does Greptile support?",
-			answer: "Greptile supports over 30 languages including Python, TypeScript/JavaScript, Go, Rust, Java, C++, and more."
+			question: "How does AlphaCode learn our infrastructure patterns?",
+			answer: "AlphaCode analyzes your deployment history, incident responses, and operational runbooks to build a knowledge graph of your infrastructure. It continuously learns from every operation it executes."
 		},
 		{
-			question: "Is Greptile compatible with GitLab?",
-			answer: "Yes, Greptile works with both GitHub and GitLab."
+			question: "Is AlphaCode secure for production environments?",
+			answer: "Yes, AlphaCode is SOC 2 Type II compliant with enterprise-grade security. All operations are logged, auditable, and can be configured with approval workflows for sensitive actions."
 		},
 		{
-			question: "Can I use Greptile's API for my own product?",
-			answer: "Yes, we have a comprehensive API. Check out our documentation for more details."
+			question: "How long does implementation take?",
+			answer: "Most teams are up and running within 1-2 weeks. Initial setup takes a few hours, and agents begin learning your infrastructure patterns immediately."
 		},
 		{
-			question: "What is AI code review?",
-			answer: "AI code review uses large language models to analyze your code changes and provide feedback on bugs, security issues, and coding standards."
+			question: "What happens if an agent makes a mistake?",
+			answer: "AlphaCode includes automated rollback capabilities and can be configured with approval gates for critical operations. All actions are logged and reversible."
 		}
 	];
 

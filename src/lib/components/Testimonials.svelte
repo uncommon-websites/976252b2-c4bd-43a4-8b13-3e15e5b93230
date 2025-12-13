@@ -1,60 +1,60 @@
 <script lang="ts">
 	const testimonials = [
 		{
-			quote: "We've tried more code review tools than I can count. Greptile outperforms them all by a mile. Honestly the only AI reviewer that doesn't annoy the shit out of me.",
-			author: "James",
-			role: "CTO • Brex",
-			image: "https://i.pravatar.cc/150?u=james",
+			quote: "AlphaCode transformed how we handle infrastructure. We went from 3 DevOps engineers struggling to keep up, to autonomous agents handling 80% of our operations. Game-changing.",
+			author: "Sarah Chen",
+			role: "VP Engineering • TechFlow",
+			image: "https://i.pravatar.cc/150?u=sarah",
+            icon: "https://placehold.co/20x20/333/fff?text=T"
+		},
+		{
+			quote: "The tribal knowledge capture is incredible. Years of DevOps expertise that lived in people's heads is now executable by AI agents. We're deploying 10x more frequently with the same team size.",
+			author: "Marcus Rodriguez",
+			role: "CTO • DataScale",
+			image: "https://i.pravatar.cc/150?u=marcus",
+            icon: "https://placehold.co/20x20/000/fff?text=D"
+		},
+		{
+			quote: "AlphaCode handles our entire Kubernetes scaling strategy autonomously. It learned our traffic patterns and now scales services before we even see the load spike.",
+			author: "Priya Sharma",
+			role: "DevOps Lead • CloudNative",
+			image: "https://i.pravatar.cc/150?u=priya",
+            icon: "https://placehold.co/20x20/purple/fff?text=C"
+		},
+		{
+			quote: "We were drowning in infrastructure complexity. AlphaCode gave us back our weekends. The agents handle deployments, rollbacks, and incident response better than we ever could manually.",
+			author: "James Wilson",
+			role: "Infrastructure Lead • Velocity",
+			image: "https://i.pravatar.cc/150?u=james-w",
+            icon: "https://placehold.co/20x20/blue/fff?text=V"
+		},
+		{
+			quote: "The learning capability is mind-blowing. Every deployment teaches the agents something new. Our infrastructure operations get more reliable every week.",
+			author: "Lisa Park",
+			role: "SRE Manager • ScaleOps",
+			image: "https://i.pravatar.cc/150?u=lisa",
+            icon: "https://placehold.co/20x20/green/fff?text=S"
+		},
+		{
+			quote: "AlphaCode reduced our mean time to recovery from 45 minutes to under 5. The agents detect issues and execute remediation playbooks faster than any human team could.",
+			author: "David Kim",
+			role: "CTO • ReliableStack",
+			image: "https://i.pravatar.cc/150?u=david-k",
+            icon: "https://placehold.co/20x20/red/fff?text=R"
+		},
+        {
+			quote: "We onboard new engineers in days instead of months. AlphaCode captures all our operational knowledge and makes it accessible to everyone on the team.",
+			author: "Emily Torres",
+			role: "Engineering Manager • BuildFast",
+			image: "https://i.pravatar.cc/150?u=emily",
             icon: "https://placehold.co/20x20/333/fff?text=B"
 		},
-		{
-			quote: "We've been impressed by Greptile's code review quality. It's tightened our feedback loops, improved consistency, and freed up engineers to focus on higher-level design and architecture.",
-			author: "Mark",
-			role: "Eng Manager • Vercel",
-			image: "https://i.pravatar.cc/150?u=mark",
-            icon: "https://placehold.co/20x20/000/fff?text=V"
-		},
-		{
-			quote: "Greptile helps the team do their best work. It levels everybody up and helps ensure that we're all proud of our code",
-			author: "Anirudh",
-			role: "Tech Lead • Sourcegraph",
-			image: "https://i.pravatar.cc/150?u=anirudh",
-            icon: "https://placehold.co/20x20/purple/fff?text=S"
-		},
-		{
-			quote: "Greptile is one of the most impressive AI code review tools I've used. It's right up there with Cursor in terms of changing the game.",
-			author: "Marlin",
-			role: "CTO • Ponder.sh",
-			image: "https://i.pravatar.cc/150?u=marlin",
-            icon: "https://placehold.co/20x20/blue/fff?text=P"
-		},
-		{
-			quote: "I'm thankful for the things Greptile catches in my pull requests.",
-			author: "Hahnbee",
-			role: "CTO • Mintlify",
-			image: "https://i.pravatar.cc/150?u=hahnbee",
-            icon: "https://placehold.co/20x20/green/fff?text=M"
-		},
-		{
-			quote: "Greptile has been the first AI code review tool I've used that actually provides useful feedback on PRs. It's catching issues that human reviewers easily miss and giving senior-level suggestions to boot",
-			author: "Chase",
-			role: "CTO • Million.js",
-			image: "https://i.pravatar.cc/150?u=chase",
-            icon: "https://placehold.co/20x20/red/fff?text=M"
-		},
         {
-			quote: "Took me a year, but I finally signed up -- wow. Greptile's code reviews are very good. Been using this for a few weeks now, the team is very responsive! Highly recommended!",
-			author: "Chris",
-			role: "CTO • Sentry",
-			image: "https://i.pravatar.cc/150?u=chris",
-            icon: "https://placehold.co/20x20/333/fff?text=S"
-		},
-        {
-			quote: "Took just 15 min to do the setup and it's been a game-changer. It catches small bugs that could easily slip through in big PRs and speeds up our release cycle.",
-			author: "Harish",
-			role: "CTO • Flexpa",
-			image: "https://i.pravatar.cc/150?u=harish",
-            icon: "https://placehold.co/20x20/orange/fff?text=F"
+			quote: "Setup took 30 minutes. Within a week, AlphaCode was handling our entire deployment pipeline. The ROI is insane - we're shipping features 3x faster.",
+			author: "Alex Johnson",
+			role: "Head of Platform • ShipIt",
+			image: "https://i.pravatar.cc/150?u=alex-j",
+            icon: "https://placehold.co/20x20/orange/fff?text=S"
 		}
 	];
 </script>
@@ -65,10 +65,10 @@
 			[ TESTIMONIALS ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-4">
-			From Developers That Use Greptile
+			From DevOps Teams Using AlphaCode
 		</h2>
 		<p class="font-mono text-sm text-gray-600">
-			See what developers are saying about their experience with Greptile
+			See how engineering teams are scaling their infrastructure with autonomous agents
 		</p>
 	</div>
 

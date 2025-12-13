@@ -23,12 +23,12 @@
 					<line x1="12" y1="22.08" x2="12" y2="12" />
 				</svg>
 			</div>
-			<div class="flex items-center gap-2 mb-4 text-accent-pink">
+			<div class="flex items-center gap-2 mb-4 text-primary-500">
 				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19c0-1.7-1.3-3-3-3h-5c-1.7 0-3 1.3-3 3"/><path d="M12 13v-3"/><path d="M12 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
 				<span class="font-mono text-xs uppercase tracking-widest">SELF-HOSTED DEPLOYMENT</span>
 			</div>
 			<p class="text-gray-600 text-sm max-w-sm">
-				Deploy in your own air-gapped environment with complete control over your infrastructure. <a href="/" class="underline decoration-gray-400 hover:text-gray-900">Learn more</a>
+				Deploy AlphaCode in your own VPC or air-gapped environment with complete control over your infrastructure. <a href="/" class="underline decoration-gray-400 hover:text-gray-900">Learn more</a>
 			</p>
 		</div>
 
@@ -39,12 +39,12 @@
 					<path d="M7 11V7a5 5 0 0 1 10 0v4" />
 				</svg>
 			</div>
-			<div class="flex items-center gap-2 mb-4 text-accent-yellow">
+			<div class="flex items-center gap-2 mb-4 text-primary-400">
 				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-				<span class="font-mono text-xs uppercase tracking-widest">SOC 2 COMPLIANT</span>
+				<span class="font-mono text-xs uppercase tracking-widest">ENTERPRISE SECURITY</span>
 			</div>
 			<p class="text-gray-600 text-sm max-w-sm">
-				All data is encrypted at rest and in transit. We use industry-standard encryption and security practices.
+				SOC 2 Type II compliant. All credentials encrypted at rest and in transit. Role-based access control and audit logs.
 			</p>
 		</div>
 	</div>
